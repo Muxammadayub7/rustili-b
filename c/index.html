@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>c</title>
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box}body{background-color:#000}.container{max-width:420px;margin-left:auto;margin-right:auto;padding-left:25px;padding-right:25px}.header{padding-top:20px;padding-bottom:100px;padding-left:20px;padding-right:20px}.header__container{background-image:url(images/flag.avif);background-repeat:no-repeat;background-size:cover;border:1px solid #7f7f7f;overflow:hidden}.header__texts{display:flex;align-items:center;gap:14px;max-width:261px;width:100%;margin-left:auto;margin-right:auto;padding-top:16px;margin-bottom:15px}.header__text{font-family:InterRegular;font-weight:400;font-size:clamp(12px,4vw,16px);line-height:100%;color:#ffff;display:flex;align-items:center;gap:4px}.title{font-family:Buyan;font-weight:700;font-size:clamp(20px,5vw,34px);line-height:130%;text-align:center;text-transform:uppercase;color:#fff;margin-bottom:5px}.flex{position:relative;display:flex;align-items:center;justify-content:center;flex-direction:column}.full__img{position:absolute;left:clamp(-7px,-8vw,10px);top:70px;object-fit:contain}.logo{object-fit:cover}.flex__text{font-family:InterBold;font-weight:700;font-style:Italic;font-size:16px;line-height:140%;text-align:center;color:#fff;margin-top:-50px;margin-bottom:10px}.energy__img{position:absolute;object-fit:cover;right:-30px;bottom:150px;transform:rotate(-8.6deg)}.btn{display:flex;align-items:center;justify-content:center;gap:7px;font-family:InterMedium,sans-serif;font-weight:500;font-size:clamp(13px,1.5vw + 9px,22px);line-height:100%;letter-spacing:.07em;color:#fff;max-width:400px;width:100%;padding:clamp(20px,4vw + 10px,41px) clamp(20px,3vw + 10px,39px);background:linear-gradient(94.13deg,#f90909 13.8%,#ff5c5c 55.11%,#f90909 83%);box-shadow:0 4px 0 0 #8f0000,0 2px 3px 1px #ffffff40 inset;border-radius:100px;border:none;cursor:pointer;margin-left:auto;margin-right:auto;margin-top:16px;transition:transform .2s ease,box-shadow .2s ease}.center__yellow{max-width:346px;width:100%;background:linear-gradient(229.81deg,#ffdf70 .91%,#ffe9a6 47.68%,rgba(255,223,112,.831373) 94.44%);border:1px solid #fff;padding:10px 0;display:flex;align-items:center;justify-content:center;flex-direction:column;border-radius:20px;border:none;margin-top:30px;margin-left:auto;margin-right:auto;margin-bottom:32px}.center__yellow__text{font-family:InterMedium;font-weight:600;font-size:clamp(12px,4vw,18px);line-height:130%;text-align:center;color:#000}.timer__text{font-family:InterBold;font-weight:700;font-size:32px;line-height:130%;text-align:center;color:#000}.center__flex{background-color:#fff;max-width:373px;width:100%;display:flex;align-items:center;justify-content:center;gap:9px;border-radius:20px;border:none;padding:6px 12px 9px 12px;border:2px solid #f11919;box-shadow:0 4px 35px 0 #c10404cc;margin-bottom:32px}.gift{width:clamp(60px,2vw,84px);height:clamp(60px,2vw,86px);object-fit:cover;margin-left:0}.flex__gift{font-family:PoppinsBold;font-weight:700;font-size:clamp(9px,3vw,14px);line-height:130%;text-transform:uppercase;color:#000;margin-bottom:4px}.flex__text__regular{font-family:PoppinsLight;font-weight:300;font-size:clamp(10px,3vw,16px);line-height:135%}.bottom{margin-left:auto;margin-right:auto}.bottom__title{font-family:Buyan;font-weight:700;font-size:clamp(30px,3vw,42px);line-height:100%;text-transform:uppercase;color:#fff;text-align:center;margin-bottom:35px}.wrapper{max-width:323px;width:100%;display:flex;flex-direction:column;gap:20px;margin-left:auto;margin-right:auto;margin-bottom:16px}.bottom__inner{background-color:#fff;display:flex;flex-direction:column;align-items:center;border-radius:15px;position:relative}.bottom__inner__title{font-family:InterMedium;font-weight:600;font-size:20px;line-height:100%;text-align:center;background:linear-gradient(161.24deg,#a40000 0,#6a0000 100%);width:34px;height:34px;display:flex;align-items:center;justify-content:center;color:#fff;border-radius:8px;position:absolute;top:-16px}.bottom__inner__text{font-family:InterRegular;font-weight:400;font-size:clamp(12px,3vw,16px);line-height:130%;text-align:center;padding-top:16px;padding-bottom:24px}.arrow__img{display:flex;margin-left:auto;margin-right:auto;object-fit:cover}
+  </style>
+  <link rel="stylesheet" href="./css/main.css" media="print" onload="this.media='all'" />
+  <noscript>
+    <link rel="stylesheet" href="./css/main.css" />
+  </noscript>
+  <meta name="description"
+    content="Only News bilan kunning eng muhim yangiliklarini qisqa, tez va foydali formatda oling.">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="header__container container">
+      <div class="header__texts">
+        <p class="header__text"><img src="./images/calendar.svg" alt="CalendarImg" width="20" height="20" loading="lazy"
+            decoding="async">25-26-27-Mart</p>
+        <p class="header__text"><img src="./images/time.svg" alt="Time" width="16" height="16" loading="lazy"
+            decoding="async">Soat: 20:30</p>
+      </div>
+      <h2 class="title">RAZGAVORDA GAPLARNI ULAB TEZ VA RAVON GAPIRISH</h2>
+      <div class="flex">
+        <img src="./images/💯.avif" alt="Img" class="full__img" width="68" height="95" fetchpriority="high"
+          decoding="async">
+        <img src="./images/logo.avif" alt="logoImg" class="logo" width="341" height="385" fetchpriority="high"
+          decoding="async">
+        <p class="flex__text">Metodikani toʻgʻrla, rus tilida <br> gapir, uyalma. Qoʻrqma</p>
+        <img src="./images/⚡️.avif" alt="Img" class="energy__img" width="72" height="80" fetchpriority="high"
+          decoding="async">
+      </div>
+    </div>
+    <div class="center container">
+      <button class="btn" id="open">
+        <img src="./images/submit.svg" alt="submit" width="27" height="27" loading="lazy" decoding="async"> BEPUL
+        QATNASHISH
+      </button>
+      <div class="center__yellow">
+        <p class="center__yellow__text">BEPUL qatnashishga ulguring:</p>
+        <div class="timer">
+          <p class="timer__text" id="timer">04:59</p>
+        </div>
+      </div>
+      <div class="center__flex">
+        <img src="./images/dift.avif" alt="GistImg" width="84" height="86" loading="lazy" decoding="async" class="gift">
+        <div>
+          <p class="flex__gift">Qatnashuvchilarga sovg’a</p>
+          <p class="flex__text__regular"> Rus tilida erkin gaplashish <br> uchun 5 ta metodikam</p>
+        </div>
+      </div>
+    </div>
+    <div class="bottom container">
+      <h2 class="bottom__title">Darsda o’rganasiz:</h2>
+      <div class="wrapper">
+        <div class="bottom__inner">
+          <h4 class="bottom__inner__title">1</h4>
+          <p class="bottom__inner__text">Rus tilida uyalmasdan erkin <br> gaplashadigan <b>"Soqqa"</b> metodikasi</p>
+        </div>
+        <div class="bottom__inner">
+          <h4 class="bottom__inner__title">2</h4>
+          <p class="bottom__inner__text">Qoʻshimchalarni adashtirmasdan, <br> o’z <b> Ona tilingizdek</b> <br>
+            avtomat gaplashamiz</p>
+        </div>
+        <div class="bottom__inner">
+          <h4 class="bottom__inner__title">3</h4>
+          <p class="bottom__inner__text">“Man Doro emasman” metodi bilan <br> <b> eslab qolishdagi muammodan</b> <br> xalos boʻlasiz</p>
+        </div>
+      </div>
+    </div>
+    <img src="./images/arrow.avif" alt="arrowImg" width="47" height="81" loading="lazy" decoding="async"
+      class="arrow__img">
+    <button class="btn" id="open">
+      <img src="./images/submit.svg" alt="submit" width="27" height="27" loading="lazy" decoding="async"> BEPUL
+      QATNASHISH
+    </button>
+  </header>
+
+    <div id="registrationModal" class="homeModal" style="display: none">
+    <div class="homeModalOverlay"></div>
+    <div class="homeFormContainer">
+      <button class="closeButton" id="closeModalBtn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 12 12" fill="none">
+          <path d="M1 11L11 1M1 1.00001L11 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+        </svg>
+      </button>
+      <div class="homeFormTop">
+        <h1 class="homeFormTopTitle">
+          Ro'yxatdan o'tish uchun <br> ma'lumotlaringizni kiriting!
+        </h1>
+      </div>
+      <form id="registrationForm" name="contact-form">
+        <div class="HomeFormRow">
+          <label class="HomeFormRowLabel" for="name">Ismingiz:</label>
+          <input class="HomeFormRowInput" type="text" id="name" name="name" placeholder="Ismingizni kiriting"
+            autocomplete="name" />
+          <p class="homeFormErrorText" id="nameError" style="display: none">❌ Ismingizni kiriting!</p>
+        </div>
+
+        <div class="HomeFormRow">
+          <label class="HomeFormRowLabel" for="phone">Telefon raqamingiz:</label>
+          <div class="phone-input-container">
+            <button type="button" class="selected-country" id="selectedCountry">
+              
+              <span class="selected-code" id="selectedCountryCodeText">+998</span>
+            </button>
+            <div class="country-dropdown" id="countryDropdown" style="display:none"></div>
+            <div class="phone-field" style="flex: 1;">
+              <input class="HomeFormRowInput phone-input" type="tel" id="phone" name="phone" inputmode="numeric"
+                placeholder="88 888 88 88" autocomplete="tel"
+                style="border: none; background-color: transparent; padding-left: 5px; width: 100%;" />
+            </div>
+          </div>
+          <p class="homeFormErrorText" id="phoneError" style="display:none">❌ Telefon raqam mos emas!</p>
+        </div>
+
+        <button type="submit" class="HomeFormBtn" id="submitBtn">DAVOM ETISH</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="./js/app.js"></script>
+  <script src="./js/phoneFormatter.js"></script>
+  <script src="./js/thankYou.js"></script>
+</body>
+
+</html>
